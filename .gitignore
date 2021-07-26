@@ -31,10 +31,6 @@ rebel.xml
 /build/
 .gradletasknamecache
 
-
-
-출처: https://ktko.tistory.com/entry/gitignore를-사용하여-깔끔하게-git-Commit-해보기 [KTKO 개발 블로그와 여행 일기]
-
 ### VisualStudioCode template
 .vscode/*
 !.vscode/settings.json
