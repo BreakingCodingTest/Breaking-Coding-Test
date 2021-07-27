@@ -31,7 +31,8 @@ hs_err_pid*
 
 java/.gradle
 java/**/build/
-!java/src
+!java/src/**/build/
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
