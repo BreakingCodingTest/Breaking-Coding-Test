@@ -40,7 +40,7 @@ gradle-app.setting
 !gradle-wrapper.jar
 
 # Cache of project
-java/.gradletasknamecache
+.gradletasknamecache
 
 ### VisualStudioCode template
 .vscode/*
