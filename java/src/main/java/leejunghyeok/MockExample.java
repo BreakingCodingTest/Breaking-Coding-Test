@@ -21,6 +21,7 @@ public class MockExample {
         int secondScore = 0;
         int thirdScore = 0;
         int max = 0;
+        // 정답 배열을 반복하면서 각각 1,2,3번 학생의 답과 비교 하여 맞으면 각 학생의 점수 증가
         for(int i=0; i < answers.length; i++) {
             if(first[i % first.length] == answers[i]) {
                 firstScore++;
@@ -33,8 +34,11 @@ public class MockExample {
                 thirdScore++;
             }
         }
+        // 1,2,3번 학생의 점수중 가장 높은 점수를 찾는다.
         max = Math.max(firstScore, Math.max(secondScore, thirdScore));
 
+        //가장 높은 점수와 같으면 저장 (여기서 0점이 아닌것을 확인 한다.)
+        // 3명의 학생이 다 0점일 경우 답은 빈 배열인 []가 나온다
         if(firstScore == max && firstScore != 0) {
             results.add(1);
         }
