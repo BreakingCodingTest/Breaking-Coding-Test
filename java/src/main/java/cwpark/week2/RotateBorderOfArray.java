@@ -51,7 +51,6 @@ public class RotateBorderOfArray {
 		int rowEnd = query[2] - 1;
 		int colStart = query[1] - 1;
 		int colEnd = query[3] - 1;
-		int startNum = matrix[rowStart][colStart];
 
 		int min = Integer.MAX_VALUE;
 		// 1. 첫 행
